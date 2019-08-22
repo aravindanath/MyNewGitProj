@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AMAZON Suite">
+  <test  name="SMOKE Test">
+    <classes>
+      <class name="com.testng.programs.TC002"/>
+      <class name="com.testng.programs.TC001"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

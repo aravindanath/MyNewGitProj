@@ -1,34 +1,34 @@
 package com.testng.programs;
 
 import org.testng.annotations.Test;
-
-public class TestNgTest {
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+ 
+public class TC3  extends LaunchBrowser{
 
 	
-	@Test
-	public void openBrowser() {
-		System.out.println("open browser");
-	}
-	
-	@Test
+
+	@Test(priority=1)
 	public void openURL() {
 		System.out.println("open url");
 	}
 	
-	@Test
+	@Test(priority=2)
 	public void searchProduct() {
 		System.out.println("search iphone");
 	}
 	
-	@Test
+	@Test(priority=3)
 	public void verifyProduct() {
 		System.out.println("Verify product");
 	}
-	
-	
+
 	@Test
-	public void closeBrowser() {
-		System.out.println("close browser");
+	public void addcart() {
+		System.out.println("Add to Cart");
 	}
 	
+	
+ 
 }
