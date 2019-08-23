@@ -11,6 +11,7 @@ public class TC002  extends LaunchBrowser{
 
 	@Test 
 	public void openURL() {
+		driver.get("https://www.amazon.com");
 		System.out.println("open url");
 	}
 	
